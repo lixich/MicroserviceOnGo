@@ -30,7 +30,7 @@ func TestCheckTransNotValidKeysJson(t *testing.T) {
 func TestCheckTransValidKeysJson(t *testing.T) {
 	total := СompletenessСheckTransaction(`{"Sum": 5, "YearEnd": 2021, "Hour": 4.5, "WeekDay": 4, "HaveDeviceId": 0, "EuropeAsiaCountryIp": 0}`)
 	assert.NotNil(t, total, "The `total` should not be `nil`")
-	assert.Equal(t, false, total, "Expecting `false`")
+	assert.Equal(t, true, total, "Expecting `true`")
 }
 
 //Todo
