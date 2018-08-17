@@ -4,7 +4,7 @@
 Для запуска:
 
 ```sh
-go run main.go
+go run ./MicroserviceOnGo/*.go
 ```
 
 ## Проверка транзакции
